@@ -1,0 +1,28 @@
+.row1{
+    margin: 0 auto;
+    margin-top: 10px;
+    position: absolute;
+    left: 200px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #F8F9FA; */
+    background-color:#f1f1f1;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.form-label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+}
+.form-check-input{
+    margin-bottom: 20px;
+}
+.form-check-label{
+    font-size: 18px;
+    color: black;
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+.nav img{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.btn1{
+    padding: 6px 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 26px;
+    right: 270px;
+}
+.btn1:hover{
+    border: 3px solid gray;
+}
+.btn2:hover{
+    background-color: rgb(219, 92, 92);
+}
+.btn2{
+    padding: 6px 10px;
+    font-size: 16px;
+    background-color: rgb(253, 23, 23);
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 26px;
+    right: 180px;
+}
+.main{
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+}
+.card{
+    margin-left: 50px;
+    box-shadow: 2px 2px 10px rgb(215, 215, 215);
+}
+.card-header{
+    font-size: 24px;
+}
+.card-body{
+    font-size: 18px;
+}
+.card-footer button{
+    background-color: blue;
+    color: white;
+    padding: 6px 14px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid blue;
+}
+.card-footer button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}

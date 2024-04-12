@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" >Home</button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" >About</button>
+          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" >Skills</button>
+          <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled">Projects</button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane active" id="nav-home">
+            <img src="./woman-1245817_1280.jpg" class="img-fluid" alt="Responsive image" style="width: 100%; height: 90vh;">
+            <div class="block">
+                <h1>Hi,I am Pruthvi R</h1>
+                <h2>From Devanahalli,</h2>
+                <h2>Karnataka</h2>
+            </div>
+        </div>
+        <div class="tab-pane" id="nav-profile">
+              <div class="obj">
+                  <h1>Objective</h1>
+                  <p>A highly motivated, organized and hardworking Individual seeking for a role where I can make the best of my potential and contribute to the growth of organization.</p>
+              </div>
+              <h1 class="edu">Education</h1>
+              <div class="education">
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                    <div class="card-body text-success">
+                      <h5 class="card-title">S.S.L.C</h5>
+                      <p class="card-text">Evergreen High School <br>92.64% <br>2017</p>
+                    </div>
+                  </div>
+                  <div class="card border-success mb-3" style="max-width: 18rem;">
+                    <div class="card-body text-success">
+                      <h5 class="card-title">Pre-University Course</h5>
+                      <p class="card-text">Vidyadri PU College <br>94% <br>2019</p>
+                    </div>
+                  </div>
+                  <div class="card border-success mb-3" style="max-width: 18rem;">
+                    <div class="card-body text-success">
+                      <h5 class="card-title">Bachelor of Computer Science and Enginerring</h5>
+                      <p class="card-text">Sir M Visveswaraya Institute Of Technology <br>9 CGPA <br> 2023</p>
+                    </div>
+                  </div>
+              </div>
+              <h1 style="font-size: 28px;margin-left: 30px;color: chocolate;">Strength</h1>
+              <ul style="font-size: 20px;margin-left: 30px;">
+                <li>Punctual</li>
+                <li>Hard Working</li>
+              </ul>
+              <h1 style="font-size: 28px;margin-left: 30px;color: chocolate;">Hobbies</h1>
+              <ul style="font-size: 20px;margin-left: 30px;">
+                <li>Drawing</li>
+                <li>Watching Webseries</li>
+              </ul>
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <div class="education" style="margin-top: 50px;">
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                    <div class="card-body text-success">
+                      <h5 class="card-title">SQL</h5>
+                      <p class="card-text">
+                        <ul style="color: black;">
+                            <li>SQL Statements</li>
+                            <li>Operators</li>
+                            <li>Joins</li>
+                            <li>Queries</li>
+                            <li>Normalization</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card border-success mb-3" style="max-width: 18rem;">
+                    <div class="card-body text-success">
+                      <h5 class="card-title">Java</h5>
+                      <p class="card-text">
+                        <ul style="color: black;">
+                            <li>Tokens</li>
+                            <li>Looping and Control Statements</li>
+                            <li>Methods and Constructors</li>
+                            <li>OOPS Concepts</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card border-success mb-3" style="max-width: 18rem;">
+                    <div class="card-body text-success">
+                      <h5 class="card-title">Web Technology</h5>
+                      <p class="card-text">
+                        <ul style="color: black;">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        <div class="tab-pane" id="nav-disabled">
+            <div class="obj">
+                <h1>Pneumonia Detection Using Image Processing(Nov 2022 - April 2023)</h1>
+                <p>In this project, we leverage deep learning techniques to automatically classify X-ray images into normal, bacterial pneumonia, viral pneumonia and COVID-19 classes. Convolutional neural network (CNN) architecture has been fine-tuned for the specific task of pneumonia and COVID-19 detection.</p>
+            </div>
+            <div class="obj">
+                <h1>Child Vaccination Management System (Nov 2021 – Jan 2022)</h1>
+                <p>Child Vaccination Management System focuses on appointment booking and storing the data of the child. The basic purpose of designing Child Vaccination Management System is to get rid from manual entry and record system and try to give easy and simple database management system for clinics.</p>
+            </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
