@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="main"><h3>The January 1st is Sunday in the year :</h3></ul>
+    <script>
+        for(let year=2014;year<=2050;year++){
+        let janFirst=new Date(year,0,1);
+        if(janFirst.getDay()===0){
+            var jan=document.createElement("li")
+            jan.innerHTML=year
+            document.getElementById("main").appendChild(jan)
+            }
+        }
+    </script>
+</body>
+</html>

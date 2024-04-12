@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function cal(){
+        // let size=Number(prompt("Enter the size"));
+        let arr=[]
+    for(let i=0;i<6;i++){
+        arr.push(Number(prompt("Enter number "+(i+1))))
+    }
+    let sum=0;
+    for (const key of arr) {
+        sum+=key
+    }
+    let avg=(sum)/6;
+    if(avg>=90){
+        alert("Your average is "+avg+" So your grade is A");
+    }
+    else if(avg>=80&&avg<90){
+        alert("Your average is "+avg+" So your grade is B");
+    }
+    else if(avg>=70&&avg<80){
+        alert("Your average is "+avg+" So your grade is C");
+    }
+    else if(avg>=60&&avg<70){
+        alert("Your average is "+avg+" So your grade is D");
+    }
+    else if(avg>=50&&avg<60){
+        alert("Your average is "+avg+" So your grade is E");
+    }
+    else{
+        alert("Your average is "+avg+" So have failed");
+    }
+}
+cal()
+
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        width: 20%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .row{
+        display: table-row;
+    }
+    .row label{
+        display: table-cell;
+        padding: 4px;
+        font-size: 16px;
+    }
+    .row input{
+        display: table-cell;
+        padding: 4px;
+        font-size: 16px;
+    }
+    #submit{
+        font-size: 14px;
+        color: white;
+        background-color: blue;
+        border: 1px solid blue;
+        border-radius: 4px;
+        padding: 4px;
+    }
+</style>
+<body>
+    <form onsubmit="register()">
+        <fieldset>
+            <legend><h3>Register</h3></legend>
+            <div class="row">
+                <label>Name</label>
+                <input type="text" name="" id="name" placeholder="Name">
+                <p id="name1"></p>
+            </div>
+            <div class="row">
+                <label>Mobile</label>
+                <input type="tel" name="" id="mobile" placeholder="Mobile">
+                <p id="mobile1"></p>
+            </div>
+            <div class="row">
+                <label>Email</label>
+                <input type="email" name="" id="email" placeholder="Email">
+                <p id="email1"></p>
+            </div>
+            <div class="row">
+                <label>Address</label>
+                <input type="text" name="" id="address" placeholder="Address">
+                <p id="address1"></p>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </fieldset>
+    </form>
+    <script>
+       function register(){
+        event.preventDefault();
+        let name=document.getElementById("name").value;
+        let mobile=document.getElementById("mobile").value;
+        let email=document.getElementById("email").value;
+        let address=document.getElementById("address").value;
+        if(name===""){
+            document.getElementById("name").style.border="3px solid red"
+            document.getElementById("name1").innerHTML="Please fill out this field"
+            document.getElementById("name1").style.color="red"
+            document.getElementById("name1").style.margin="1px"
+        }
+        else{
+            document.getElementById("name").style.border="1px solid black"
+            document.getElementById("name1").style.visibility="hidden"
+        }
+        if(mobile===""){
+            document.getElementById("mobile").style.border="3px solid red"
+            document.getElementById("mobile1").innerHTML="Please fill out this field"
+            document.getElementById("mobile1").style.color="red"
+            document.getElementById("mobile1").style.margin="2px"
+        }
+        else{
+            document.getElementById("mobile").style.border="1px solid black"
+            document.getElementById("mobile1").style.visibility="hidden"
+        }
+        if(email==""){
+            document.getElementById("email").style.border="3px solid red"
+            document.getElementById("email1").innerHTML="Please fill out this field"
+            document.getElementById("email1").style.color="red"
+            document.getElementById("email1").style.margin="1px"
+        }
+        else{
+            document.getElementById("email").style.border="1px solid black"
+            document.getElementById("email1").style.visibility="hidden"
+        }
+        if(address==""){
+            document.getElementById("address").style.border="3px solid red"
+            document.getElementById("address1").innerHTML="Please fill out this field"
+            document.getElementById("address1").style.color="red"
+            document.getElementById("address1").style.margin="1px"
+        }
+        else{
+            document.getElementById("address").style.border="1px solid black"
+            document.getElementById("address1").style.visibility="hidden"
+        }
+        if(name!==""&&mobile!=""&&email!=""&&address!=""){
+            alert("You have registered successfully!")
+        }
+       }
+    </script>
+</body>
+</html>

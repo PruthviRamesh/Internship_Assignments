@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row{
+            display: table-row;
+        }
+        .row label{
+            display: table-cell;
+            padding: 2px;
+            margin: 10px;
+            font-size: 16px;
+        }
+        .row input{
+            display: table-cell;
+            padding: 2px;
+            margin: 10px;
+            font-size: 16px;
+        }
+        .main{
+           width: 25%;
+           margin: 0 auto;
+        }
+        #submit{
+            font-size: 16px;
+            margin: 4px;
+            padding: 2px 20px;
+            border-radius: 4px;
+            background-color: rgb(115, 171, 32);
+            color: white;
+            border: 1px solid rgb(81, 126, 14);
+        }
+        form{
+            box-shadow: 2px 2px 10px gainsboro;
+            padding: 20px;
+            background-color: white;
+            border-radius: 4px;
+        }
+        body{
+            background-color: rgb(244, 244, 244);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <center><h2>Calculator</h2></center>
+                <div class="row">
+                    <label>1st number :</label>
+                    <input type="text" name="" id="first"  placeholder="1st number">
+                </div>
+                <div class="row">
+                    <label>2nd number :</label>
+                    <input type="text" name="" id="second" placeholder="2nd number">
+                </div>
+                <div class="row">
+                    <label>Enter Choice :</label>
+                    <select id="Choice" style="margin-left: 10px;font-size: 16px;width: 90%;margin-bottom: 10px;padding: 2px;">
+                        <option value="Select">Select</option>
+                        <option value="Add">Add</option>
+                        <option value="Subtract">Subtract</option>
+                        <option value="Multiply">Multiply</option>
+                        <option value="Divide">Divide</option>
+                    </select>
+                </div>
+                <center><input type="submit" id="submit" value="Calculate" onclick="Calculate()"></center>
+        </form>
+        <div class="result">
+            <h3>The Result is:</h3>
+            <p id="res" style="font-size: 16px;"></p>
+        </div>
+    </div>
+    <script>
+        function Calculate(){
+            event.preventDefault()
+            let choice=document.getElementById("Choice").value;
+            let firstNumber=Number(document.getElementById("first").value);
+            let secondNumber=Number(document.getElementById("second").value);
+            if(choice!=""&&firstNumber!=""&&secondNumber!=""){
+                switch(choice){
+                case "Add":{
+                    let result=firstNumber+secondNumber
+                    document.getElementById("res").innerHTML="Addition is "+result
+                    break;
+                }
+                case "Subtract":{
+                    let result=firstNumber-secondNumber
+                    document.getElementById("res").innerHTML="Subtraction is "+result
+                    break;
+                }
+                case "Multiply":{
+                    let res=firstNumber*secondNumber
+                    document.getElementById("res").innerHTML="Multiplication is "+result
+                    break;
+                }
+                case "Divide":{
+                    let result=firstNumber/secondNumber
+                    document.getElementById("res").innerHTML="Division is "+result
+                    break;
+                }
+             }
+            }
+            else{
+                alert("Enter the numbers")
+            }
+        }
+    </script>
+</body>
+</html>
