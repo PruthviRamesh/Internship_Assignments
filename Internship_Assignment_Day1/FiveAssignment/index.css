@@ -1,0 +1,71 @@
+*{
+    margin:0px ;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.nav{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    z-index: 1;
+}
+.nav h1{
+    font-size: 44px;
+    color: palevioletred;
+    margin-left: 130px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links a{
+    font-size: 28px;
+    color: white;
+    margin-right: 35px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links{
+    position: absolute;
+    top: 40px;
+    right: 80px;
+}
+.links a:hover{
+    color: palevioletred;
+    font-size: 30px;
+}
+.intro p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 44px;
+}
+.intro a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.intro button{
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+.intro{
+    position: absolute;
+    top: 200px;
+    left: 160px;
+}
+.image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.image{
+    position: absolute;
+    top: 170px;
+    right: 300px;
+}

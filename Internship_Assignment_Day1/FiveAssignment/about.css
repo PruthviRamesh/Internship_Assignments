@@ -1,0 +1,131 @@
+*{
+    margin:0px ;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.nav{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    z-index: 1;
+}
+.nav h1{
+    font-size: 44px;
+    color: palevioletred;
+    margin-left: 130px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links a{
+    font-size: 28px;
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links{
+    position: absolute;
+    top: 40px;
+    right: 120px;
+}
+.links a:hover{
+    color: palevioletred;
+    font-size: 30px;
+}
+.about{
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about p{
+    color:darkturquoise;
+    font-size: 40px;
+    font-weight: 700;
+}
+.about h2{
+    color:palevioletred;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about span{
+    color: white;
+    font-size: 24px;
+}
+.education h2{
+    color: palevioletred;
+    font-size: 28px;
+    margin-top: 30px;
+}
+.school{
+    color: white;
+    width: 22%;
+    padding: 16px;
+    background-color: #3b3b3b;
+}
+.school span{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 6px;
+    background-color: #3b3b3b;
+    display: block;
+}
+.college{
+    color: white;
+    width: 24%;
+    padding: 16px;
+    margin-left: 20px;
+    background-color: #3b3b3b;
+}
+.college span{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 6px;
+    display: block;
+    background-color: #3b3b3b;
+}
+.engineering{
+    color: white;
+    width: 48%;
+    padding: 16px;
+    margin-left: 20px;
+    background-color: #3b3b3b;
+}
+.engineering span{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 6px;
+    display: block;
+    background-color: #3b3b3b;
+}
+.edu{
+    margin-top: 20px;
+    display: flex;
+}
+.strength h2{
+    color: palevioletred;
+    font-size: 28px;
+    margin-top: 30px;
+}
+.strength li{
+    font-size: 24px;
+    color: white;
+}
+.hobby h2{
+    color: palevioletred;
+    font-size: 28px;
+    margin-top: 30px;
+}
+.hobby li{
+    font-size: 24px;
+    color: white;
+}
+.hobby{
+    margin-bottom: 20px;
+}

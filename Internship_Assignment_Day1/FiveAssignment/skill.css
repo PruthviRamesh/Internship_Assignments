@@ -1,0 +1,196 @@
+*{
+    margin:0px ;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    z-index: 1;
+}
+.nav h1{
+    font-size: 44px;
+    color: palevioletred;
+    margin-left: 130px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links a{
+    font-size: 28px;
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links{
+    position: absolute;
+    top: 40px;
+    right: 80px;
+}
+.links a:hover{
+    color: palevioletred;
+    font-size: 30px;
+}
+.skills{
+    margin-top: 100px;
+    width: 93%;
+    margin-bottom: 20px;
+}
+.skills p{
+    color:darkturquoise;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+.sql h2{
+    color: white;
+    font-size: 28px;
+    background-color: #3b3b3b;
+    margin-bottom: 8px;
+}
+.sql li{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.sql span{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.java h2{
+    color: white;
+    font-size: 28px;
+    background-color: #3b3b3b;
+    margin-bottom: 8px;
+}
+.java li{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.java span{
+    color: white;
+    background-color: #3b3b3b;
+    font-size: 24px;
+}
+.html h2{
+    color: white;
+    font-size: 28px;
+    background-color: #3b3b3b;
+    margin-bottom: 8px;
+}
+.css h2{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+    margin-bottom: 8px;
+}
+.javascript h2{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+    margin-bottom: 8px;
+}
+.html span{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.css span{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.javascript span{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.html li{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.css li{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.javascript li{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.react h2{
+    color: white;
+    font-size: 28px;
+    background-color: #3b3b3b;
+    margin-bottom: 8px;
+}
+.react li{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.react span{
+    color: white;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+.sql{
+    width: 35%;
+    background-color: #3b3b3b;
+    padding: 20px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 125px;
+}
+.java{
+    width: 35%;
+    padding: 20px 30px;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    position: absolute;
+    top: 482px;
+    left: 125px;
+}
+.react{
+    border-radius: 10px;
+    width: 35%;
+    padding: 20px 30px;
+    background-color: #3b3b3b;
+    position: absolute;
+    top: 820px;
+    left: 125px;
+}
+.web{
+    width: 35%;
+    padding: 20px 30px;
+    background-color: #3b3b3b;
+    position: absolute;
+    border-radius: 10px;
+    top: 200px;
+    right: 160px;
+}
+.css{
+    margin-top: 20px;
+    background-color: #3b3b3b;
+}
+.javascript{
+    margin-top: 20px;
+    background-color: #3b3b3b;
+}
+.html{
+    background-color: #3b3b3b;
+}

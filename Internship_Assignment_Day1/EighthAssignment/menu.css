@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    background-color: black;
+    height: 120px;
+    width: 100%;
+}
+.links{
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+.links a{
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    margin-right: 55px;
+}
+.main img{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.links a:hover{
+    color: orange;
+    font-size: 26px;
+}
+.body{
+    background-image: url("./menuu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.items{
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    top: 320px;
+    right: 270px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
