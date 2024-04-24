@@ -1,0 +1,15 @@
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\obj\Debug\net8.0\Internship_Programs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\obj\Debug\net8.0\Internship_Programs.AssemblyInfoInputs.cache
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\obj\Debug\net8.0\Internship_Programs.AssemblyInfo.cs
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\obj\Debug\net8.0\Internship_Programs.csproj.CoreCompileInputs.cache
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\obj\Debug\net8.0\Internship_Programs.sourcelink.json
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\bin\Debug\net8.0\Internship_Programs.exe
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\bin\Debug\net8.0\Internship_Programs.deps.json
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\bin\Debug\net8.0\Internship_Programs.runtimeconfig.json
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\bin\Debug\net8.0\Internship_Programs.dll
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\bin\Debug\net8.0\Internship_Programs.pdb
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\obj\Debug\net8.0\Internship_Programs.dll
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\obj\Debug\net8.0\refint\Internship_Programs.dll
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\obj\Debug\net8.0\Internship_Programs.pdb
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\obj\Debug\net8.0\Internship_Programs.genruntimeconfig.cache
+C:\Users\Pruthvi Ramesh\Desktop\CSharp\Internship_Programs\Internship_Programs\obj\Debug\net8.0\ref\Internship_Programs.dll
